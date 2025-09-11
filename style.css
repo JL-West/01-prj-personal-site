@@ -1,5 +1,5 @@
-/* Add you CSS here */
-
+/* Add your CSS here */
+ 
 /* This sets the background color of the whole page */
 body {
   background-color: rgb(125, 217, 245); /* You can use color names or hex codes */
@@ -16,7 +16,7 @@ button {
 
 /* This styles only the Contact Me button */
 .contact-btn {
-  background-color: rgba(103, 112, 198, 0.664); /* Light orange background */
+  background-color: rgba(103, 112, 198, 0.664); /* Light blue/purple background */
   color: rgb(80, 8, 80);              /* Dark blue text */
   border: 2px solid rgb(101, 142, 199);   /* Adds a border */
   border-radius: 8px;                   /* Rounds the corners */

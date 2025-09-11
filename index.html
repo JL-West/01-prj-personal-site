@@ -2,10 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Jamie West's Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <p>Welcome to my page! 😀</p>
+
+  <!-- Skills & Projects button -->
+  <button onclick="showSkills()">
+    My Skills & Projects 🔨
+  </button>
+  <!-- This is where the skills info will appear -->
+  <div id="skills-info" style="display:none;">
+    <!-- Add your skills and projects info here -->
+    <p>
+      Skills: HTML, CSS, JavaScript, Creative Writing, Research<br>
+      Projects: Personal Website
+    </p>
+  </div>
+
+  <!-- Contact Me button -->
+  <button class="contact-btn" onclick="showContact()">
+    Contact Me 📱
+  </button>
+  <!-- This is where the contact info will appear -->
+  <div id="contact-info" style="display:none;">
+    <!-- Add your contact info here -->
+    <p>
+      Email: jaammiiee99@gmail.com
+    </p>
+    <!-- LinkedIn link inside Contact Me section -->
+    <!-- This link takes users to your LinkedIn profile -->
+    <p>
+      <a href="https://www.linkedin.com/in/jamie-west99/" target="_blank">
+        LinkedIn 🔗
+      </a>
+    </p>
+    <!-- GitHub link inside Contact Me section -->
+    <!-- This link takes users to your GitHub profile -->
+    <p>
+      <a href="https://github.com/jamie-west99" target="_blank">
+        GitHub 🐙
+      </a>
+    </p>
+  </div>
+
+  <!-- Simple JavaScript to show info when buttons are clicked -->
+  <script>
+    // Shows the Skills & Projects info
+    function showSkills() {
+      document.getElementById('skills-info').style.display = 'block';
+    }
+    // Shows the Contact Me info
+    function showContact() {
+      document.getElementById('contact-info').style.display = 'block';
+    }
+  </script>
 </body>
 </html>
