@@ -1,1 +1,25 @@
 /* Add you CSS here */
+
+/* This sets the background color of the whole page */
+body {
+  background-color: rgb(125, 217, 245); /* You can use color names or hex codes */
+}
+
+/* This sets the color of the navigation button */
+button {
+  background-color: rgb(35, 86, 157);    /* Button background */
+  color: rgb(209, 119, 219);               /* Button text color */
+  border: none;               /* Removes border */
+  padding: 10px 20px;         /* Adds space inside the button */
+  cursor: pointer;            /* Shows a hand when you hover */
+}
+
+/* This styles only the Contact Me button */
+.contact-btn {
+  background-color: rgba(103, 112, 198, 0.664); /* Light orange background */
+  color: rgb(80, 8, 80);              /* Dark blue text */
+  border: 2px solid rgb(101, 142, 199);   /* Adds a border */
+  border-radius: 8px;                   /* Rounds the corners */
+  padding: 10px 20px;                   /* Adds space inside the button */
+  cursor: pointer;                      /* Shows a hand cursor when hovering */
+}
