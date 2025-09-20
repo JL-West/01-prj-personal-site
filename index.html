@@ -58,15 +58,26 @@
     </p>
   </div>
 
-  <!-- Simple JavaScript to show info when buttons are clicked -->
+  <!-- Simple JavaScript to show or hide info when buttons are clicked -->
   <script>
-    // Shows the Skills & Projects info
+    // This function toggles the Skills & Projects info
     function showSkills() {
-      document.getElementById('skills-info').style.display = 'block';
+      var skillsDiv = document.getElementById('skills-info');
+      // If the info is hidden, show it; if shown, hide it
+      if (skillsDiv.style.display === 'none' || skillsDiv.style.display === '') {
+        skillsDiv.style.display = 'block';
+      } else {
+        skillsDiv.style.display = 'none';
+      }
     }
-    // Shows the Contact Me info
+    // This function toggles the Contact Me info
     function showContact() {
-      document.getElementById('contact-info').style.display = 'block';
+      var contactDiv = document.getElementById('contact-info');
+      if (contactDiv.style.display === 'none' || contactDiv.style.display === '') {
+        contactDiv.style.display = 'block';
+      } else {
+        contactDiv.style.display = 'none';
+      }
     }
   </script>
 </body>
